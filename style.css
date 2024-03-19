@@ -1,8 +1,10 @@
 body {
     display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 100vh;
     margin: 0;
-    background-image: url("./img/bg-rings.webp");
+    background-image: url();
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
     background-position: top center;
@@ -23,7 +25,7 @@ h1 {
     padding: 1vw 1vh;
     border: 2px solid beige;
     border-radius: 2rem;
-    background-color: rgb(255, 255, 255, 0.4);
+    background-color: rgb(255, 255, 255, 0.6);
 /*    overflow-y: scroll;*/
 }
 
@@ -32,4 +34,20 @@ h1 {
     border: 2px solid beige;
     border-radius: 2rem;
     /*    max-width: 100px;*/
+}
+
+body {
+    background-image: url("./img/bg-rings-phone.jpg");
+}
+
+@media screen and (min-width: 769px) {
+    body {
+        background-image: url("./img/bg-rings.webp");
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background-image: url("./img/bg-rings.webp");
+    }
 }
