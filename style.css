@@ -14,7 +14,6 @@ body {
 h1 {
     text-align: right;
     display: block;
-    align-content: center;
 }
 
 #main {
@@ -44,7 +43,7 @@ h1 {
     background-attachment: scroll;
     background-repeat: no-repeat;
     display: flex;
-/*    align-items: end;*/
+    align-items: center;
     justify-content: right;
     /*    max-width: 100px;*/
 }
