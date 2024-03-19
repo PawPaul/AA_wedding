@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    background-color: peachpuff;
+    min-height: 100vh;
+    margin: 0;
+    /* height: 100%; */
+}
+
+#main {
+    width: auto;
+    flex-grow: 1; 
+    word-wrap: normal;
+    margin: 1vw 1vh;
+    padding: 1vw 1vh;
+    border: 2px solid beige;
+
+}
+
+#logo {
+    width: 100%;
+    max-width: 100px;
+    
+}
