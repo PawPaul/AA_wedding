@@ -12,7 +12,9 @@ body {
 }
 
 h1 {
-    text-align: center;
+    text-align: right;
+    display: block;
+    align-content: center;
 }
 
 #main {
@@ -31,8 +33,19 @@ h1 {
 
 #logo {
     width: 100%;
+    height: fit-content;
+    min-height: 300px;
     border: 2px solid beige;
     border-radius: 2rem;
+    top: 0;
+    position: relative;
+    background-image: url("./img/wedding-19.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    display: flex;
+/*    align-items: end;*/
+    justify-content: right;
     /*    max-width: 100px;*/
 }
 
