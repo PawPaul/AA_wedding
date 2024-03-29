@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\font",
+    "\\font\\Marion",
     "\\img"
   ],
-  "SelectedNode": "\\script.js",
+  "SelectedNode": "\\index.html",
   "PreviewInSolutionExplorer": false
 }
