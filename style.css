@@ -45,11 +45,12 @@ h1 {
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
-/*    background-image: url("./img/bg-rings-phone.jpg");*/
+    background-color: rgb(251, 251, 242, 1);
+    /*    background-image: url("./img/bg-rings-phone.jpg");*/
 }
 
-@media screen and (orientation: landscape) {
-    #background_wrap {
+/*@media screen and (orientation: landscape) {
+    #background_wrap {*/
 /*        background-image: url("./img/bg-rings.webp");*/
-    }
-}
+    /*}
+}*/
