@@ -1,6 +1,6 @@
 @font-face {
     font-family: _my_Marion;
-    src: url('./font/Marion/marion-regular.ttf');
+    src: url('font/Marion/marion-regular.ttf');
 }
 
 body {
