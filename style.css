@@ -27,8 +27,6 @@ h1 {
     border-radius: 2rem;
     background-color: rgb(251, 251, 242, 1);
     background-size: cover;
-    
-/*    overflow-y: scroll;*/
 }
 
 #logo {
@@ -47,11 +45,11 @@ h1 {
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-image: url("./img/bg-rings-phone.jpg");
+/*    background-image: url("./img/bg-rings-phone.jpg");*/
 }
 
 @media screen and (orientation: landscape) {
     #background_wrap {
-        background-image: url("./img/bg-rings.webp");
+/*        background-image: url("./img/bg-rings.webp");*/
     }
 }
