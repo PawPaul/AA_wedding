@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/matrimonioalviseanna/FileContentIndex/42a3b3fd-63cc-4705-ac4f-e53efa53cd50.vsidx
+/.vs/matrimonioalviseanna/FileContentIndex/51073c7b-80c4-40d0-b08b-b176e67abd37.vsidx
+/.vs/matrimonioalviseanna/FileContentIndex
+*.vsidx
