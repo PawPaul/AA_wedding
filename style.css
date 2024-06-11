@@ -26,10 +26,10 @@ h5 {
     max-width: 800px;
     height: 100%;
     margin: 1vw 1vh;
-    padding: 1vw 1vh;
+    padding: 2vh 1vw;
     /*border: 2px solid beige;*/
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 2rem;
+    border-radius: 1rem;
     background-color: rgb(251, 251, 242, 1);
     background-size: cover;
 }
@@ -37,8 +37,8 @@ h5 {
 #logo {
     width: 100%;
     /*border: 20px solid beige;*/
-    border-radius: 2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+/*    border-radius: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
 }
 
 #background_wrap {
@@ -55,55 +55,39 @@ h5 {
     /*    background-image: url("./img/bg-rings-phone.jpg");*/
 }
 
-/*@media screen and (orientation: landscape) {
-    #background_wrap {*/
-/*        background-image: url("./img/bg-rings.webp");*/
-    /*}
-}*/
-
-
-
-/* Add some basic styling for a nice appearance */
-/*body {
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-}*/
-
-.mail-container {
-    /*max-width: 400px;*/
-    margin: 0 auto;
-    padding: 20px;
-/*    background-color: #ffffff;*/
-    border-radius: 2rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+#formFlexContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
-.mail-container input[type="text"] {
-    width: 95%;
+#messageForm input[type="text"] {
     padding: 10px;
-    margin: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
     border: 1px solid #ccc;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
-.mail-container textarea {
-    width: 95%;
+#messageForm textarea {
+    min-height: 60px;
     padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 2rem;
+    border-radius: 1rem;
     resize: vertical; /* Allow vertical resizing */
 }
 
-#main input[type="submit"] {
-    background-color: #007bff;
+#messageForm button[type="submit"] {
+    max-width: 200px;
+    background-color: rgb(181, 181, 152, 1);
     color: #ffffff;
     border: none;
     padding: 10px 20px;
-    border-radius: 2rem;
+    border-radius: 1rem;
     cursor: pointer;
+}
+
+#messageForm button[type="submit"]:hover {
+    background-color: rgb(221, 221, 202, 1);
 }
 
 #okIcon {

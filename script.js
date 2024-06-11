@@ -12,9 +12,13 @@ function sendMail() {
 
 
     // Nascondiamo form e mostriamo messaggio di successo
-    const mailContainer = document.getElementById("messageForm");
-    mailContainer.hidden = true;
+//    const mailSender = document.getElementById("mailSender");
+//    mailSender.innerText = '';
+//    const mailMessage = document.getElementById("mailMessage");
+//    mailMessage.innerText = '';
+//    const mailContainer = document.getElementById("messageForm");
+//    mailContainer.hidden = true;
 
-    const messageThanks = document.getElementById("messageThanks");
-    messageThanks.hidden = false;
+//    const messageThanks = document.getElementById("messageThanks");
+//    messageThanks.hidden = false;
 }
